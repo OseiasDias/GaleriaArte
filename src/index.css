@@ -1,0 +1,58 @@
+body{
+  font-family: "Pacifico", Helvetica, sans-serif;
+  padding:15px 20px 0 20px;
+  
+}
+*{
+  border-radius: 0 !important;
+}
+
+
+.galleria-figcaption{
+  text-align: left !important;
+}
+/* galleria.css */
+.galleria-slide {
+  padding: 0 10px;
+}
+
+.galleria-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.fotter-bottom{
+  border-top: 1.3px solid #000 !important;
+  padding-top: 19px;
+  margin-top: 50px;
+}
+
+@media (max-width:768px){
+  body{
+    font-family: "Pacifico", Helvetica, sans-serif;
+    padding:15px 5px 0 5px;
+    
+  }
+}
+
+html::-webkit-scrollbar{
+  background-color: #000;
+  width: 15px;
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width:992px){
+
+  .minhaModal img{
+    margin-bottom: 17px;
+  }
+}

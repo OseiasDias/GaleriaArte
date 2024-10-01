@@ -1,0 +1,94 @@
+body{
+    color: #000;
+   
+}
+
+.margin-top-quadro1{
+    margin-top: 100px;
+    font-family: "poppins",Arial, Helvetica, sans-serif !important;
+}
+
+.text-paragrafo{
+    text-align: justify;
+}
+
+.foto-autor{
+    display: block;
+}
+
+.tiraBorda{
+    border: none !important;
+    padding: 0 !important;
+}
+
+.galleria-figura{
+    position: relative;
+    box-sizing: border-box;
+    color: #fff;
+    transition: all 300ms ease-in !important;
+ }
+ .delimitar .col-12{
+     position: relative;
+    box-sizing: border-box !important;
+    color: #fff;
+ }
+ 
+ .galleria-figcaption{
+     background-color: rgba(0,0,0,0.6);
+     position: absolute !important;
+     top:10.1px;
+     width: 100% !important;
+     height: 100% !important;
+     transition: all 200ms ease-in !important;
+     font-family: Poppins, Arial, Helvetica, sans-serif;
+     
+     padding-left: 15px;
+     
+     
+ 
+ }
+ .galleria-figura:hover > .galleria-figcaption{
+     background-color: #00000000;
+     color: #00000000 !important;
+ }
+ 
+ /* Certifique-se de que o contêiner tenha position: relative */
+ figure {
+     position: relative;
+     /* Outros estilos do figure */
+     font-family: "poppins",Arial, Helvetica, sans-serif;
+ }
+ 
+ /* Ajuste o estilo da .textos-figcaption */
+ .textos-figcaption {
+     position: absolute;
+     bottom: 15px; /* Alinha a parte inferior do texto ao fundo do figure */
+     left: 10px; /* Opcional: alinha o texto à esquerda do figure */
+     right: 0; /* Opcional: estende o texto até a borda direita do figure */
+     
+ }
+ 
+ .textos-figcaption span{
+     font-size: 1.1em;
+     font-weight: 300;
+ }
+ 
+.minhaModal{
+
+    border-radius: 0 !important;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: none !important;
+
+}
+@media (min-width:992px){
+    .minhaModal p{
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width:436px){
+    .ocultaSpan{
+        display: none;
+    }
+}
