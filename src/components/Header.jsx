@@ -9,7 +9,7 @@ export default function Header(){
         <header className="position-fixed header-principal py-3">
             <div className="container-xxl ">
                 <div className="d-flex header-top justify-content-between">
-                  <Link to="/" ><h2 className="header-h1">Galleria <span>de Arte</span> <BsFillBrushFill className="header-pincel"/></h2>
+                  <Link to="/" ><h2 className="header-h1">Galleria <span>de Arte Dias</span> <BsFillBrushFill className="header-pincel"/></h2>
                   </Link>
                   <div>
                   <ModalInfo />
